@@ -38,9 +38,9 @@ CREATE TABLE phone_numbers
 
 -- DATA
 
--- easypay has all the permission
--- dumb has only check permission
--- both have password 1234
+-- 'easypay' has all the permission
+-- 'dumb' has only check permission
+-- both have password '1234'
 
 INSERT INTO users (username, password) VALUES ('easypay', '$2a$10$RkPPOOI837gFVjjrDWpTv.qJUd8ytpiVZiD85B776cqflHmu4TeAe');
 INSERT INTO users (username, password) VALUES ('dumb', '$2a$10$RkPPOOI837gFVjjrDWpTv.qJUd8ytpiVZiD85B776cqflHmu4TeAe');
